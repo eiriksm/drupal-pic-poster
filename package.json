@@ -1,0 +1,33 @@
+{
+  "name": "drupal-pic-poster",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "dependencies": {
+    "ambient-attx4": "^0.2.5",
+    "async": "^1.4.0",
+    "imagesnapjs": "0.0.7",
+    "mkdirp": "^0.5.1",
+    "request": "^2.60.0"
+  },
+  "devDependencies": {
+    "coveralls": "^2.11.3",
+    "eslint": "^0.24.1",
+    "istanbul": "^0.3.17",
+    "mocha": "^2.2.5",
+    "should": "^7.0.2"
+  },
+  "scripts": {
+    "test": "eslint . && mocha"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/eiriksm/drupal-pic-poster.git"
+  },
+  "author": "Eirik S. Morland <eirik@morland.no>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/eiriksm/drupal-pic-poster/issues"
+  },
+  "homepage": "https://github.com/eiriksm/drupal-pic-poster#readme"
+}
